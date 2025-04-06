@@ -1,6 +1,6 @@
-import { createFetchClient } from '@apimda/apimda2/client';
-import { InferControllerClientType } from '@apimda/apimda2/core';
-import { createRequestListener } from '@apimda/apimda2/server';
+import { createFetchClient } from '@vardario/apimda/client';
+import { InferControllerClientType } from '@vardario/apimda/core';
+import { createRequestListener } from '@vardario/apimda/server';
 import { Server, createServer } from 'node:http';
 import { AddressInfo } from 'node:net';
 import { afterAll, beforeAll, beforeEach, expect, test } from 'vitest';
