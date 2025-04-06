@@ -71,6 +71,9 @@
     "serverless",
     "type safe"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown",
     "package.json": "prettier-package-json --write",
