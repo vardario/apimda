@@ -1,5 +1,5 @@
-import { a } from '@apimda/apimda2/core';
-import { createAwsLambdaHandler } from '@apimda/apimda2/server';
+import { a } from '@vardario/apimda/core';
+import { createAwsLambdaHandler } from '@vardario/apimda/server';
 import { helloController } from './definition.js';
 
 export const helloImpl = a.implement(helloController, {

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { createFetchClient } from '@apimda/apimda2/client';
-import { a } from '@apimda/apimda2/core';
-import { createRequestListener } from '@apimda/apimda2/server';
+import { createFetchClient } from '@vardario/apimda/client';
+import { a } from '@vardario/apimda/core';
+import { createRequestListener } from '@vardario/apimda/server';
 import { createServer } from 'node:http';
 import { z } from 'zod';
 

@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@types/aws-lambda': ^8.10.119
+  zod: ^3.22.2
+
 importers:
 
   .:
@@ -12,7 +16,7 @@ importers:
         specifier: ^2.5.2
         version: 2.5.2
       zod:
-        specifier: ^3.21.4
+        specifier: ^3.22.2
         version: 3.22.4
     devDependencies:
       '@types/aws-lambda':
@@ -81,7 +85,7 @@ importers:
 
   examples/hello-world:
     dependencies:
-      '@apimda/apimda2':
+      '@vardario/apimda':
         specifier: workspace:*
         version: link:../..
       aws-cdk-lib:
@@ -91,7 +95,7 @@ importers:
         specifier: ^10.2.54
         version: 10.4.2
       zod:
-        specifier: ^3.21.4
+        specifier: ^3.22.2
         version: 3.22.4
     devDependencies:
       '@aws-cdk/aws-apigatewayv2-alpha':
@@ -112,11 +116,11 @@ importers:
 
   integration-test:
     dependencies:
-      '@apimda/apimda2':
+      '@vardario/apimda':
         specifier: workspace:*
         version: link:..
       zod:
-        specifier: ^3.21.4
+        specifier: ^3.22.2
         version: 3.22.4
     devDependencies:
       '@types/aws-lambda':
