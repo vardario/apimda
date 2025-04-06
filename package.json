@@ -1,5 +1,6 @@
 {
   "name": "@vardario/apimda",
+  "version": "0.0.0-development",
   "license": "MIT",
   "author": "Joseph Mays",
   "type": "module",
